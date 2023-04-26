@@ -5,4 +5,4 @@ permalink: /about/
 icon: octicon-heart
 ---
 
-شعرخانه
+انگیزشی

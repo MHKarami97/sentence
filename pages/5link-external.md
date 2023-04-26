@@ -6,4 +6,4 @@ icon: octicon-link-external
 
 ---
 
-### [github](https://github.com/mhkarami97/poem)
+### [github](https://github.com/mhkarami97/sentence)
