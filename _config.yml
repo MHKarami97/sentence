@@ -1,0 +1,48 @@
+plugins: [jekyll-paginate]
+
+permalink: /:categories/:title/
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input:  GFM
+  syntax_highlighter: rouge
+
+paginate: 100
+paginate_path: "page/:num"
+baseurl: "/"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      styles : [highlight.css,gitment.css,post.css]
+      scripts : [gitment.js, post.js]
+
+title: "شعر خانه"
+email: mhkaram97@gmail.com
+description: "محفل شعر"
+
+github:
+  username: mhkarami97
+
+swiftype:
+  searchId: "3cGh6TzuZUfyZMsybLKx"
+
+# gitment:
+#     repo: blog
+#     client_id: a6fb73b3e790e234bab8
+#     client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+
+url: "https://poem.mhkarami97.ir"
+imgrepo: "https://poem.mhkarami97.ir/static/img"
+
+google_analytics: "G-DZM25ZLKRP"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-DZM25ZLKRP"
+    anonymize_ip: false # default
